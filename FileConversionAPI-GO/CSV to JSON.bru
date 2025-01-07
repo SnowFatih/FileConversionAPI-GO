@@ -1,0 +1,15 @@
+meta {
+  name: CSV to JSON
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/convert/csv-to-json
+  body: formUrlEncoded
+  auth: none
+}
+
+body:form-urlencoded {
+  file: File
+}
