@@ -6,10 +6,14 @@ meta {
 
 post {
   url: http://localhost:8080/convert/csv-to-json
-  body: formUrlEncoded
+  body: multipartForm
   auth: none
 }
 
 body:form-urlencoded {
   file: File
+}
+
+body:multipart-form {
+  file: @file(/Users/fatih/Downloads/ficher-test.csv)
 }
