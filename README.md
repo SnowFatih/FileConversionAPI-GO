@@ -7,9 +7,9 @@ Ce projet permet de convertir des fichiers entre différents formats via une **A
 
 ## 📌 **Fonctionnalités**
 
-✔️ **Conversion de fichiers texte** (CSV ↔ JSON ↔ XML).  
-✔️ **Compression et décompression de fichiers (ZIP).**  
-✔️ **Conversion d’images** (JPEG ↔ PNG ↔ GIF).  
+✔️ **Conversion de fichiers texte** (CSV ↔ JSON).  
+✔️ **Compression de fichiers (ZIP).**  
+✔️ **Conversion d’images** (JPEG ↔ PNG).  
 ✔️ **API REST et interface CLI**.
 
 ### **📌 Technologies utilisées**
