@@ -1,0 +1,15 @@
+meta {
+  name: PNG to JPEG
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/convert/image
+  body: multipartForm
+  auth: none
+}
+
+body:multipart-form {
+  file: @file(/Users/fatih/Documents/COURS-BACHELOR/FileConversionAPI-GO/photo-jpg.jpg)
+}

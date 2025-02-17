@@ -1,0 +1,15 @@
+meta {
+  name: Compress File
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:8080/compress
+  body: multipartForm
+  auth: none
+}
+
+body:multipart-form {
+  file: @file(/Users/fatih/Documents/COURS-BACHELOR/FileConversionAPI-GO/ip-feuille.txt)
+}

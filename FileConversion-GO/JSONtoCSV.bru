@@ -1,0 +1,15 @@
+meta {
+  name: JSON to CSV
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/convert/text
+  body: multipartForm
+  auth: none
+}
+
+body:multipart-form {
+  file: @file(/Users/fatih/Documents/COURS-BACHELOR/FileConversionAPI-GO/ip-feuille.txt)
+}
